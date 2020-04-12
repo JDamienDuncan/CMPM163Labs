@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Lab 2: Intro to Three.js Part 2</title>
+		<style>
+			body { margin: 0; }
+			canvas { display: block; }
+		</style>
+	</head>
+	<body>
+		<script src="../three.js-master/build/three.js"></script>
+		<script 
+src="../three.js-master/examples/js/loaders/GLTFLoader.js"></script>
+		<script>
+			var scene = new THREE.Scene();
+			var camera = new THREE.PerspectiveCamera(75, 
+				window.innerWidth/window.innerHeight, 0.1, 1000);
+			var renderer = new THREE.WebGLRenderer();
+			renderer.setSize(window.innerWidth, window.innerHeight);
+			document.body.appendChild(renderer.domElement);
+			camera.position.z = 200;
+			
+			var light = new THREE.PointLight(0x0000ff, 1, 1000);
+			light.position.set(100, 0, 50);
+			scene.add(light);
+			
+			var light2 = new THREE.PointLight(0xff0000, 1, 1000);
+			light2.position.set(50, 0, 50);
+			scene.add(light2);
+			
+			var light3 = new THREE.PointLight(0x00ff00, 1, 1000);
+			light3.position.set(100, 100, 50);
+			scene.add(light3);
+
+			//Cat
+			var loader = new THREE.GLTFLoader();
+			loader.load('cat.glb', function (gltf)
+			{
+			
+			scene.add(gltf.scene);
+			//gltf.scene.rotateY(5);
+			gltf.scene.position.y = 45;
+			gltf.scene.position.x = -18;
+			gltf.scene.rotateZ(5);
+			gltf.scene.rotateY(10);
+			
+			}, function (xhr) {
+				console.log((xhr.loaded / xhr.total * 100) + '% loaded' );
+			}, function (error) {
+				console.error(error);
+			});
+			
+			//Dog
+			
+			loader.load('dog.glb', function (gltf2) {
+			scene.add(gltf2.scene);
+			gltf2.scene.rotateY(5);
+			gltf2.scene.position.y = -40;
+			}, function (xhr) {
+				console.log((xhr.loaded / xhr.total * 100) + '% loaded' );
+			}, function (error) {
+				console.error(error);
+			});
+			//Rabbit
+			loader.load('rabbit.glb', function (gltf3) {
+			scene.add(gltf3.scene);
+			gltf3.scene.position.y = 70
+			gltf3.scene.position.x = 15
+			gltf3.scene.rotateY(-5);
+			;
+			//gltf3.scene.position.x = 100;
+			}, function (xhr) {
+				console.log((xhr.loaded / xhr.total * 100) + '% loaded' );
+			}, function (error) {
+				console.error(error);
+			});
+			
+			
+			//gltf2.scene.position.x = -50;
+			//gltf3.scene.position.x = 3;
+		
+			function animate() {
+				
+				
+				
+				requestAnimationFrame(animate);
+				renderer.render(scene, camera);
+				
+				
+			}
+			animate();
+
+		</script>
+	</body>
+</html>
