@@ -20,7 +20,15 @@ Lab3:
 		       shader more clear to the naked eye. The final cube is also making use of its wireframe
 		       form, making the cube invisible besides its edges. With this effect, the red appears
 		       to chase the corner in which moves closet to the user. This was set up by the usage of
-		       a second fragment shader.    
+		       a second fragment shader.  
+
+Lab4:
+		Questions:
+			24a
+			
+			24b
+			
+			24c
 		           
 	
 
