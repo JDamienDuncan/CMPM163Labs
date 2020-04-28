@@ -11,24 +11,7 @@
 	</head>
 	<body>
 		<script src="../three.js-master/build/three.js"></script>
-		<script id="vertexShader" type="x-shader/x-vertex">
-			// code for vertex shader
-			varying vec2 vUv;
-			void main() {
-				vUv = uv;
-				vec4 modelViewPosition = modelViewMatrix * vec4(position, 1.0);
-				gl_Position = projectionMatrix * modelViewPosition;
-			}
-		</script>
-
-		<script id="fragmentShader" type="x-shader/x-fragment">
-			// code for fragment shader
-			uniform sampler2D texture1;
-			varying vec2 vUv;
-			void main() {
-				gl_FragColor = texture2D(texture1, vUv);
-			}
-			</script>
+		
 
 		<script>
 			// setup the scene
@@ -119,7 +102,7 @@
 			function addTextureShaderCube() {
 				if(count == 2) {
 					var uniforms = {texture1: { type: "t", value: 
-						THREE.ImageUtils.loadTexture("151.jpg")}};
+						THREE.ImageUtils.loadTexture("176.jpg")}};
 
 					
 	
@@ -141,14 +124,14 @@
 			function addTextureShaderCube2() {
 				if(count == 3) {
 					var uniforms = {texture1: { type: "t", value: 
-						THREE.ImageUtils.loadTexture("151.jpg")}};
+						THREE.ImageUtils.loadTexture("176.jpg")}};
 
 					
 	
 					geometry4 = new THREE.BoxGeometry(1, 1, 1);
 					material4 =  new THREE.ShaderMaterial({
 						uniforms: uniforms,
-						fragmentShader: fshader2,
+						fragmentShader: fshader,
 						vertexShader: vshader2,
 						precision: "mediump"});
 
@@ -196,7 +179,7 @@
 			function animate() {
 				requestAnimationFrame(animate);
 				renderer.render(scene, camera);
-				//light.position.y += 1;
+				light.position.y += 1;
 			}
 			animate();
 
