@@ -45,6 +45,7 @@
 			var count = 0;
 			var loader = new THREE.FileLoader();
 			var fshader, vshader;
+			var fshader2, vshader2;
 
 			loader.load('shaders/vertexShader.vert',
 				// onLoad callback
@@ -79,13 +80,46 @@
 				function (err) {
 					console.error('An error happened');
 			});
+			loader.load('shaders/vertexShader2.vert',
+				// onLoad callback
+				function (data) {
+					console.log(data); // output the text to the console
+					vshader2 = data;
+					count += 1;
+					addTextureShaderCube2(); // we will write this method
+				},
+				// onProgress callback
+				function (xhr) {
+					console.log((xhr.loaded/xhr.total * 100)+ '% loaded');
+				},
+				// onError callback
+				function (err) {
+					console.error('An error happened');
+				});
+
+			loader.load('shaders/fragmentShader2.frag',
+				// onLoad callback
+				function (data) {
+					console.log(data); // output the text to the console
+					fshader2 = data;
+					count += 1;
+					addTextureShaderCube2(); // we will write this method
+				},
+				// onProgress callback
+				function (xhr) {
+					console.log((xhr.loaded/xhr.total * 100)+ '% loaded');
+				},
+				// onError callback
+				function (err) {
+					console.error('An error happened');
+			});
 			
 			var geometry3, material3, mesh1;
 
 			function addTextureShaderCube() {
 				if(count == 2) {
 					var uniforms = {texture1: { type: "t", value: 
-						THREE.ImageUtils.loadTexture("165.jpg")}};
+						THREE.ImageUtils.loadTexture("151.jpg")}};
 
 					
 	
@@ -99,8 +133,31 @@
 					mesh1 = new THREE.Mesh(geometry3, material3);
 					mesh1.position.x = 4;
 					scene.add(mesh1);
-    	}
-}
+				}
+			}
+			
+			var geometry4, material4, mesh2;
+			
+			function addTextureShaderCube2() {
+				if(count == 3) {
+					var uniforms = {texture1: { type: "t", value: 
+						THREE.ImageUtils.loadTexture("151.jpg")}};
+
+					
+	
+					geometry4 = new THREE.BoxGeometry(1, 1, 1);
+					material4 =  new THREE.ShaderMaterial({
+						uniforms: uniforms,
+						fragmentShader: fshader2,
+						vertexShader: vshader2,
+						precision: "mediump"});
+
+					mesh2 = new THREE.Mesh(geometry4, material4);
+					mesh2.position.x = -4;
+					scene.add(mesh2);
+			
+				}
+			}
 
 			
 			
@@ -127,6 +184,8 @@
 			var cube3 = new THREE.Mesh(geometry, material2);
 			scene.add(cube3);
 			cube3.position.x += 2;
+			
+			// setup the cube4
 
 
 			// add the light
@@ -137,7 +196,7 @@
 			function animate() {
 				requestAnimationFrame(animate);
 				renderer.render(scene, camera);
-				light.position.y += 1;
+				//light.position.y += 1;
 			}
 			animate();
 

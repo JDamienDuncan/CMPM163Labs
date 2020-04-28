@@ -24,11 +24,21 @@ Lab3:
 
 Lab4:
 		Questions:
-			24a
-			
+			24a:
+				u = 1.5v
 			24b
-			
+				v = u/1.5
 			24c
-		           
+		        Green
+
+		Cube1:
+
+		Cube2:
+		
+		Cube3:
+		
+		Cube4:
+		
+		Cube5:
 	
 
