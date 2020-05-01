@@ -23,7 +23,7 @@ Lab3:
 		       a second fragment shader.  
 
 Lab4:
-		Video: https://drive.google.com/file/d/1BRLd9vqmi1Y8hOF0cq2_VqDvjTGPhHUY/view?usp=sharing
+		Video: https://drive.google.com/file/d/10lOcz9LZNNPgXYz6pAZ-NjW6AreuYo2Z/view?usp=sharing
 		Questions:
 			24a:
 				x = 8u and u = x/8
