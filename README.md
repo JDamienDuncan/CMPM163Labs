@@ -66,4 +66,21 @@ Lab4:
 			with shaders. This cube is rendered using shaders and has a normal applied to its texture. The most important note
 			in the creation of this cube is that the fragment shader returns a texture instead of simple color. This cube is also 
 			unaffected by the change in light shown in the program. 
+
+Lab 5:
+	Chosen Path: Path 1(Unity Adventure)
+	Video: https://drive.google.com/file/d/11qX9M0uNjM4lyFgljk2Je9prq0zsASNh/view?usp=sharing
 	
+	What I did:
+		First I added 3 particle system that appear at the tail of the player's cart. The idea overall was to create a fire 			effect that was being emitted from the back of the card, similar to a rocket. I did this by changing the shape of the 
+		particles to spherical, enchancing the size of particles so that would overlap, and increasing the emission speed and 
+		limit. I did the same with the second and third particles systems as well, but, different from the first, I increased 
+		particles life time and the angle in which the particles were released to create the effect that is shown at the back
+		of the cart. 
+		On top of the main cart effect, I placed simple yellow particle systems at each of the track's checkpoint, making it 
+		clearer to see them. I decreased the game's max time from 60 seconds to 30, to make the game slightly more difficult. 
+		I also changed the colors of everything in the environment. The trees are now red, the hills are green, the clouds are 			blue, the rocks are yellow, and the sun, for a good old Bloodborne easter egg, is also now red. The ground is also black 		 now. On top of these minor changes, instead of changing the material the sky box like the assignment suggest, I changed 		 the player's material into the default material of the sky box, along with the kart and its wheels. The last change I 
+		made was changing the color of light emitted from the 'sun' to neon green, so object shadows have a clear green tint, ob		obvious some places more then others. Hopefully that is enough changes. 
+	Side Note: My Lab 4 has a 0/7 right now after I was told to fix a link error involving the video. I did that and commented on 
+		the submission as told too and I just haven't heard anything back yet. I know everyone is busy and I'm not trying to
+		pressure anyone, just wanted to bring it up when I had the chance. Thank you! :)
