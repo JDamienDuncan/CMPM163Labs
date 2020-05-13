@@ -91,7 +91,7 @@ Lab 6:
 	a. Part 1: Unity Path
 	b. 
 	   i.
-
+		![](https://github.com/JDamienDuncan/Personal/blob/master/Images/Lab_6_Picture.PNG)
 	   ii. 
 		Point Light: Light is created at a point and spread out all directions equally. 
 			     Useful for replicating local sources of light in scences, like lamps. 
@@ -104,7 +104,8 @@ Lab 6:
 			    but only from one side of the shape. This method is useful for realistic lighting in finer
 			    focused scences, such as interior lighting inside constructs. 
 	  iii. 
-		
+		![](https://github.com/JDamienDuncan/Personal/blob/master/Images/Gold.PNG)
+		![](https://github.com/JDamienDuncan/Personal/blob/master/Images/5.PNG)
 
 	  iv.		
 		For my new material, I decided to try and create gold. To do this I created a new custom material
