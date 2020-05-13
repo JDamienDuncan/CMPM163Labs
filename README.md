@@ -86,4 +86,42 @@ Lab 5:  Chosen Path: Path 1(Unity Adventure)
 	Side Note: My Lab 4 has a 0/7 right now after I was told to fix a link error involving the video. I did that and commented on 
 		the submission as told too and I just haven't heard anything back yet. I know everyone is busy and I'm not trying to
 		pressure anyone, just wanted to bring it up when I had the chance. Thank you! :)
+
+Lab 6:	
+	a. Part 1: Unity Path
+	b. 
+	   i.
+
+	   ii. 
+		Point Light: Light is created at a point and spread out all directions equally. 
+			     Useful for replicating local sources of light in scences, like lamps. 
+		Spotlight: Light is created and dispersed at focused angle, creating a cone like light effect.
+			   Useful for artificial light sources, like flashlights and car headlights
+		Directional Light: Light is dispersed is one direction, which is useful for replicating far
+				   away light sources such as the sun. Directional light isn't defined at a
+				   set point, so it can be freely moved to change the direction the light comes from.
+	 	Area Light: This method defines light rectangularly and is emitted in all directions on the surface area
+			    but only from one side of the shape. This method is useful for realistic lighting in finer
+			    focused scences, such as interior lighting inside constructs. 
+	  iii. 
+		
+
+	  iv.		
+		For my new material, I decided to try and create gold. To do this I created a new custom material
+		defined in Unity and set the base color to a yellow/orange color. After this, I adjusted the finer
+		points of the material in the inspector, playing mostly with the metalic and smoothness settings. 
+		Once this some what finished, I applied the gold color created to the middle sphere and to the trees
+		that serve as the background of the piece.
+	  v.
+		My first texture, sphere on the left, uses a wood texture that I used in a game in CMPM 80k. The
+		texture replicates nailed wood. My second texture I used what a map of the Death Star from Star Wars
+		that I tried to draw in Paint 3D. It is applied to the right sphere and the giant sphere hidden in the 
+		background.
+
+	  vi. 
+		For my skybox, I wanted something brighter then the default with a more iridescent sun for a backdrop.
+		The new skybox in my lab features a bluer sky to constrant with the scale of sun, now quite large, in 
+		the background. This skybox was suppose to replicate a sunny cloudless day.  
+	   
+		 
 	
