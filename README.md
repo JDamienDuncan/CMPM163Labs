@@ -91,7 +91,7 @@ Lab 6:
 	a. Part 1: Unity Path
 	b. 
 	   i.
-		![](https://github.com/JDamienDuncan/Personal/blob/master/Images/Lab_6_Picture.PNG)
+		![](https://github.com/JDamienDuncan/Personal/blob/master/Images/Lab6.PNG)
 	   ii. 
 		Point Light: Light is created at a point and spread out all directions equally. 
 			     Useful for replicating local sources of light in scences, like lamps. 
@@ -105,6 +105,14 @@ Lab 6:
 			    focused scences, such as interior lighting inside constructs. 
 	  iii. 
 		![](https://github.com/JDamienDuncan/Personal/blob/master/Images/Gold.PNG)
+		
+		
+		
+		
+		
+		
+		
+		
 		![](https://github.com/JDamienDuncan/Personal/blob/master/Images/5.PNG)
 
 	  iv.		
