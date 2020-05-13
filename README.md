@@ -104,7 +104,8 @@ Lab 6:
 			    but only from one side of the shape. This method is useful for realistic lighting in finer
 			    focused scences, such as interior lighting inside constructs. 
 	  iii. 
-	  ![](lab6/LabImages/Gold.PNG)
+	  ![](lab6/LabImages/Gold.png)
+	  Basis Image
 	  ![](lab6/LabImages/5.jpg)
 		 iv.		
 		For my new material, I decided to try and create gold. To do this I created a new custom material
