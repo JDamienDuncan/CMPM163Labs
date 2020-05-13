@@ -91,7 +91,7 @@ Lab 6:
 	a. Part 1: Unity Path
 	b. 
 	   i.
-
+	![](https://github.com/JDamienDuncan/Personal/blob/master/Images/Lab6.PNG)
 	   ii. 
 		Point Light: Light is created at a point and spread out all directions equally. 
 			     Useful for replicating local sources of light in scences, like lamps. 
@@ -104,9 +104,9 @@ Lab 6:
 			    but only from one side of the shape. This method is useful for realistic lighting in finer
 			    focused scences, such as interior lighting inside constructs. 
 	  iii. 
-		
-
-	  iv.		
+	  ![](https://github.com/JDamienDuncan/Personal/blob/master/Images/Gold.PNG)
+	  ![](https://github.com/JDamienDuncan/Personal/blob/master/Images/5.PNG)
+		 iv.		
 		For my new material, I decided to try and create gold. To do this I created a new custom material
 		defined in Unity and set the base color to a yellow/orange color. After this, I adjusted the finer
 		points of the material in the inspector, playing mostly with the metalic and smoothness settings. 
@@ -117,8 +117,7 @@ Lab 6:
 		texture replicates nailed wood. My second texture I used what a map of the Death Star from Star Wars
 		that I tried to draw in Paint 3D. It is applied to the right sphere and the giant sphere hidden in the 
 		background.
-
-	  vi. 
+	vi. 
 		For my skybox, I wanted something brighter then the default with a more iridescent sun for a backdrop.
 		The new skybox in my lab features a bluer sky to constrant with the scale of sun, now quite large, in 
 		the background. This skybox was suppose to replicate a sunny cloudless day.  
