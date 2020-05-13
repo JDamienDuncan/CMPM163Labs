@@ -91,7 +91,7 @@ Lab 6:
 	a. Part 1: Unity Path
 	b. 
 	   i.
-	![](https://github.com/JDamienDuncan/Personal/blob/master/Images/Lab6.PNG)
+	![](lab6/Lab%20Images/filename Lab6.png)
 	   ii. 
 		Point Light: Light is created at a point and spread out all directions equally. 
 			     Useful for replicating local sources of light in scences, like lamps. 
