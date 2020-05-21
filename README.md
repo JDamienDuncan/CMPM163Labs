@@ -120,7 +120,22 @@ Lab 6:
 	vi. 
 		For my skybox, I wanted something brighter then the default with a more iridescent sun for a backdrop.
 		The new skybox in my lab features a bluer sky to constrant with the scale of sun, now quite large, in 
-		the background. This skybox was suppose to replicate a sunny cloudless day.  
+		the background. This skybox was suppose to replicate a sunny cloudless day.
+Lab 7:
+	Link: https://drive.google.com/file/d/122kuPVQ88Fj6tvvQvUa0fvAWZdflVT3P/view?usp=sharing
+	
+	There are several parts of the scene that need to be highlighted. The first, the is the mountain range in the
+	backdrop. This was created in the first tutorial and is created via manipulating a mesh using the graph interface
+	using nodes. The second piece to highlight is the water like floor in the scence, which is created in the second 
+	part of the lab. This done through hard coding the shader so that mesh is manipulated in a way that creates a water/wave
+	like effect. After these parts were finished, I scaled the examples so that they'd create a scene and canvas for the
+	creative portion of the lab. For the creative portion lab, I created an particle system to replicate snow, used a high
+	intensity spotlight to create a fire, created an array of 3D tree objects to try and create a dead/swampy tree visual,
+	and used some left over knight assets I had laying around from an old project and implemented them on the structure. 
+	The knights circle the fire, doing the chicken dance, as one does when stranded on half constructed room trapped in the middle 
+	the ocean, and its snowing.
+  
+
 	   
 		 
 	
