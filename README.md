@@ -139,6 +139,7 @@ Lab 8:
 	i.
 	![](lab8/LabImages/Lab8.png)
 	ii.
+	Basis Image
 	![](lab8/LabImages/agrabah.jpg)
 	iii.
 		The inspiration of my lab was the fictional city Agrabah, the main setting of the famous story Aladdin. In the Disney 
