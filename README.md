@@ -135,6 +135,21 @@ Lab 7:
 	and used some left over knight assets I had laying around from an old project and implemented them on the structure. 
 	The knights circle the fire, doing the chicken dance, as one does when stranded on half constructed room trapped in the middle 
 	the ocean, and its snowing.
+Lab 8:
+	i.
+	![](lab8/LabImages/Lab8.png)
+	ii.
+	![](lab8/LabImages/agrabah.jpg)
+	iii.
+		The inspiration of my lab was the fictional city Agrabah, the main setting of the famous story Aladdin. In the Disney 
+		adaptation of the classic story, Agrabah is an endless sea of small buildings surronding a glorious palace, which served 
+		as the seat of power of city. The city is also seemlessy stranded in the middle of a great desert. In order to replicate this
+		without proper assets, I used a middle eastern castle asset in place of Agrabah Palace, and surronded it with two populations 
+		of buildings. The first, which was the result of the first part of that lab, stands in front of the palace. The backgroud of 
+		the palace is clustered with simple yet stylistically proper buildings. These outer buildings take up a large space, in an
+		attempt to capture the vastness of the fictional city, as it surronds the palace. 
+	iv. 
+		I was unable to reach my partner. I do believe that they are still working and I'll try to reach them again in the morning.... 
   
 
 	   
